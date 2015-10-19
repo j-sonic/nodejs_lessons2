@@ -1,9 +1,9 @@
 function start() {
-    console.log("Request handler 'start' was called.");
+    console.log("Обработчик события 'start' вызван.");
 }
 
 function upload() {
-    console.log("Request handler 'upload' was called.");
+    console.log("Обработчик события 'upload' вызван.");
 }
 
 exports.start = start;
