@@ -8,3 +8,4 @@ handle["/start"] = reqHandlers.start;
 handle["/upload"] = reqHandlers.upload;
 
 server.start(router.route, handle);
+
